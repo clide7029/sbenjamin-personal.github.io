@@ -2,18 +2,64 @@
 <hmtl>
 	<head>
 		<title> Skyler's Personal Website </title>
-	<head>
+		<link rel="stylesheet" href="main.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<style>
+		.container {
+			margin: auto;
+			width: 70%;
+			padding: 40px;
+		}
+		.row {
+			border: 1px solid black;
+		}
+		.col {
+			display: block;
+			background-color: cyan;
+		}
+		</style>
+	</head>
 	
 	<body>
-		<h1>About Me</h1>
-		<p>I am a dual major of Business Administration and Computer Science at the University of Puget Sound</p>
-		<img src="https://keyin.ca/wp-content/uploads/computer-business-application-specialist-648x260.jpg"/>
-		<p> I have experience coding in the following languages:
-		<ul>
-			<li> Java </li>
-			<li> C </li>
-			<li> Haskell </li>
-			<li> MIPS </li>
-		</ul>
-		<h2> <a.href="sb_resume.hmtl"> Resume </a> </h2>
-		
+		<div class="menu">
+			<div class="menu-item"> <a href="Skyler.html">Skyler's Site</a></div>
+			<div class="menu-item"> <a href="resume.html"> Resume </a> </div>
+			<div class="menu-item"> 
+				Assignments 
+				<div class="dropdown"> 
+					<div class="dropdown-item"><a href="tutorial1.html">Tutorial 1</a></div>
+					<div class="dropdown-item">Tutorial 2</div>
+					<div class="dropdown-item">Tutorial 3</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h1>About Me</h1>
+			<div class="row">
+				<div class="col">
+					<li>I go to the University of Puget sound</li>
+				</div>
+				<div class="col">
+					<img src="https://www.collegeconsensus.com/wp-content/uploads/2016/12/University-Puget-Sound-1024x589.jpg" class="img-fluid" alt="Yup, I live there"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<li>Where I study Business Administration and Computer Science</li>
+				</div>
+				<div class="col">
+					<img src="https://keyin.ca/wp-content/uploads/computer-business-application-specialist-648x260.jpg" class="img-fluid" alt="I study the computer so when they take over I will know their ways"/>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<li>I hope to one day own my own business</li>
+				</div>
+				<div class="col">
+					<img src="BusinessIsAStateOfMind.jpg" class="img-fluid" alt="This is a pic of me"/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
