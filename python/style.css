@@ -1,0 +1,60 @@
+
+body {
+    margin: 0px;
+}
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+p {
+    color: darkcyan;
+}
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    color: darkorchid;
+    padding: 10px;
+}
+th {
+    border: 1px solid black;
+    padding: 10px;
+}
+.menu {
+    width: 100%;
+    background-color: magenta;
+    color: white;
+    font-family: sans-serif;
+}
+.menu-item {
+    display: inline-block;
+    font-size: 24;
+    color: white;
+    padding: 10px;
+}
+.menu-item:hover{
+    background-color: darkslateblue;
+    cursor: pointer;
+}
+.menu-item:hover .dropdown{
+    height: 50px;
+    width: 100px;
+    background-color: magenta;
+    position: absolute;
+    top: 38px;
+    display: block;
+}
+.container {
+    margin: auto;
+    width: 70%;
+    display: block;
+}
+.dropdown {
+    display: none;
+}
+.dropdown-item:hover {
+    background-color: darkturquoise;
+}
