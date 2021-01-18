@@ -8,17 +8,17 @@ h1 {
     font-family: sans-serif;
 }
 p {
-    color: darkcyan;
+    color: black;
 }
 .wrapper {
     text-align: center;
     display: inline-block;
 }
-.button {
+button {
     font-family: sans-serif;
     height: 40px;
     width:  300px;
-    background-color: blue;
+    background-color: magenta;
     padding: 10px;
     margin: 10px;
 }
