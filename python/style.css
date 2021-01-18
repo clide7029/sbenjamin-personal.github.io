@@ -3,11 +3,34 @@ body {
     margin: 0px;
 }
 h1 {
+    color: black;
     text-align: center;
     font-family: sans-serif;
 }
 p {
     color: darkcyan;
+}
+.wrapper {
+    text-align: center;
+    display: inline-block;
+}
+.button {
+    font-family: sans-serif;
+    height: 40px;
+    width:  300px;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+.centreButtons {
+    text-align: center;
+    align-content: center;
+    display: block;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    left: 50%
 }
 table {
     width: 100%;
@@ -47,8 +70,16 @@ th {
     top: 38px;
     display: block;
 }
+.headSpace {
+    height: 50px;
+}
 .container {
+    background-color: cyan;
+    text-align: center;
+    position: relative;
     margin: auto;
+    border: 20px;
+    padding: 100px;
     width: 70%;
     display: block;
 }
