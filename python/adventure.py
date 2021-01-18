@@ -2,7 +2,7 @@
 
 
 adv_page2A = {
-    "title"   : "page 2a",
+    "title"   : "page2a",
     "content" : "ready for an adventure?",
     "pathA"   : "go down this path",
     "pathB"   : "or maybe this one",
@@ -10,7 +10,7 @@ adv_page2A = {
     # "pathB"   : ("or maybe this one", adv_page3B)
 }
 adv_page2B = {
-    "title"   : "page 2b",
+    "title"   : "page2b",
     "content" : "you died",
     "pathA"   : "go down this path",
     "pathB"   : "or maybe this one"
@@ -18,7 +18,7 @@ adv_page2B = {
     # "pathB"   : ("or maybe this one", adv_page3D)
 }
 adv_page1 = {
-    "title"   : "page one",
+    "title"   : "page1",
     "content" : "you are here for an adventure",
     "pathA"   : ("go down this path", adv_page2A["title"]),
     "pathB"   : ("or maybe this one", adv_page2B["title"])
