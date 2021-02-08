@@ -85,7 +85,7 @@ adv_page4C = {
 }
 adv_page4B = {
     "title"   : "Pulling",
-    "content" : "The cube will not pull apart, but you can it must come apart somehow. ",
+    "content" : "The cube will not pull apart, but you can tell it must come apart somehow. ",
     "pathA"   : ("Get a closer look at the puzzle", "Inspecting"),
     "pathB"   : ("Set it on the can", "Set can")
 }
@@ -138,8 +138,8 @@ adv_page1 = {
     "pathB"   : ("Go to the door", "Door")
 }
 
-adventure = [adv_page1, adv_page2A, adv_page2B, adv_page3A, adv_page3B, adv_page3C, adv_page3D, adv_page4A, adv_page4B, adv_page4C, adv_page4D, adv_page4DD,
-adv_page5A, adv_page5B, adv_page6A, adv_page6B, adv_page7A, adv_page7B, adv_page8A, adv_page8B, adv_page9A, adv_pageD]
+adventure = [adv_page1, adv_page2A, adv_page2B, adv_page3A, adv_page3B, adv_page3C, adv_page3D, adv_page4A, adv_page4B, adv_page4C, 
+adv_page4D, adv_page4DD, adv_page5A, adv_page5B, adv_page6A, adv_page6B, adv_page7A, adv_page7B, adv_page8A, adv_page8B, adv_page9A, adv_pageD]
 
 def make_page(adv_page):
     buttonA = adv_page["pathA"]
